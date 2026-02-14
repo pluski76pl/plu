@@ -1,15 +1,56 @@
-# The History of Polish Punk Rock in the 1980s
 
-The 1980s marked a significant era for punk rock in Poland, resonating not only with music but also the socio-political context of the time.  
-In the backdrop of martial law imposed in December 1981, punk rock emerged as a rebellious voice against the oppressive regime, becoming a means for the youth to express dissent and fight for freedom.
-
-One of the pioneering bands of this movement was **Dezerter**, formed in 1981. With their aggressive sound and politically charged lyrics, they quickly gained popularity among Polish youth. Songs like "Spytaj Milicjanta" (Ask the Militia) captured the frustrations of ordinary citizens.  
-
-In addition to Dezerter, other notable bands such as **Kraków’s Brygada Kryzys** and **Gdańsk’s Republika** also emerged, each contributing their unique sound and messages to the punk scene.  
-Brygada Kryzys, known for their integration of reggae with punk, became popular for their social commentary.
-
-Despite the risks involved, underground punk shows flourished in secret locations, often attended by groups of passionate young fans. These gatherings symbolized not just a love for music but also a collective yearning for change.
-
-By the end of the decade, with the transformation of Poland towards democracy, punk rock had evolved but retained its status as an important cultural and political voice.
-
-In conclusion, the 1980s were formative years for Polish punk rock, characterized by defiance, creativity, and a quest for freedom, ultimately leaving a lasting legacy in the country’s music history.
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunt i Wolność: Polski Punk 80s</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Staatliches&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #09090b;
+            color: #f4f4f5;
+        }
+        .punk-font {
+            font-family: 'Staatliches', cursive;
+            letter-spacing: 0.05em;
+        }
+        .zine-font {
+            font-family: 'Special+Elite', cursive;
+        }
+        .distorted {
+            filter: contrast(150%) brightness(120%) grayscale(100%);
+        }
+        .grainy-bg {
+            background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre.png");
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #18181b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #dc2626;
+            border-radius: 4px;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "recharts": "https://esm.sh/recharts@^3.7.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+</head>
+<body class="grainy-bg">
+    <div id="root"></div>
+</body>
+</html>
